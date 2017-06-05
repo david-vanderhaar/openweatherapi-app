@@ -85,8 +85,8 @@ function parseResponse(result) {
     // tempK.innerHTML = result.main.temp;
     // tempC.innerHTML = convertKtoC(result.main.temp);
     tempF.innerHTML = convertKtoF(result.main.temp);
-    tempLo.innerHTML += ' ' + convertKtoF(result.main.temp_min);
-    tempHi.innerHTML += ' ' + convertKtoF(result.main.temp_max);
+    tempLo.innerHTML = 'Lo: ' + convertKtoF(result.main.temp_min);
+    tempHi.innerHTML = 'Hi: ' + convertKtoF(result.main.temp_max);
     // displaySeasonImage(convertKtoF(result.main.temp));
 
 }
