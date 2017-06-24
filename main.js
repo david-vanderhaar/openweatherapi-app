@@ -39,7 +39,7 @@ function test() {
 
 //Contact openWeather API
 function getWeather() {
-    var url = "http://api.openweathermap.org/data/2.5/weather?zip=<zipCode>&us&appid=58e92c763df5499a2c9ae20da806e2dc";
+    var url = "https://api.openweathermap.org/data/2.5/weather?zip=<zipCode>&us&appid=58e92c763df5499a2c9ae20da806e2dc";
     url = url.replace("<zipCode>", zipInput.value);
     console.log(url);
     apiRequest = new XMLHttpRequest();
