@@ -126,7 +126,7 @@ function displayConditionImg(cond) {
             conditionImg.src = 'images/weatherIcons/animated/day.svg';
         break;
         case cond == 'few clouds':
-            conditionImg.src = 'images/weatherIcons/animated/cloudy-day.svg';
+            conditionImg.src = 'images/weatherIcons/animated/cloudy-day-1.svg';
         break;
         case cond.includes('clouds'):
             conditionImg.src = 'images/weatherIcons/animated/cloudy.svg';
