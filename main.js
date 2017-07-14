@@ -39,7 +39,7 @@ function test() {
 
 //Contact openWeather API
 function getWeather() {
-    var url = "https://api.openweathermap.org/data/2.5/weather?zip=<zipCode>&us&appid=522f247f3865d994e8d30161d680514e";
+    var url = "http://api.openweathermap.org/data/2.5/weather?zip=<zipCode>&us&appid=522f247f3865d994e8d30161d680514e";
     url = url.replace("<zipCode>", zipInput.value);
     console.log(url);
     apiRequest = new XMLHttpRequest();
@@ -106,7 +106,7 @@ function displaySeasonImage(fahr) {
     switch (true) {
         case fahr > 78:
             //Hot
-            conditionImg.src = 'https://68.media.tumblr.com/2579413bdc64f863116662b4f9b3acf3/tumblr_mwan6qdS951qc2zhlo1_250.gif';
+            conditionImg.src = 'http://68.media.tumblr.com/2579413bdc64f863116662b4f9b3acf3/tumblr_mwan6qdS951qc2zhlo1_250.gif';
         break;
         case fahr <= 78 && fahr >= 65:
             //Mild
