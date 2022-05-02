@@ -1,3 +1,5 @@
+ARCHIVED (to keep a log of my development journey)
+
 This is a simple weather app that takes in a zip code, interacts with the openWeather API, and spits out a few data points. Thanks for stopping by!
 
 
